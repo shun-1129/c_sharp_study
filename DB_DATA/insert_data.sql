@@ -1,0 +1,2 @@
+INSERT INTO m_sex (m_sex_id, m_sex_logic_name, m_sex_physics_name, created_at, create_user, create_program, updated_at, update_user, update_program, is_deleted) VALUES (1, 'man', 'íj', NOW(), 'Developer', 'Query', NOW(), 'Developer', 'Query', false) ON CONFLICT DO NOTHING;
+INSERT INTO m_sex (m_sex_id, m_sex_logic_name, m_sex_physics_name, created_at, create_user, create_program, updated_at, update_user, update_program, is_deleted) VALUES (2, 'weman', 'èó', NOW(), 'Developer', 'Query', NOW(), 'Developer', 'Query', false)  ON CONFLICT DO NOTHING;
